@@ -1,1 +1,23 @@
-# ml_exercise
+# numpy, scipy, pandasの使い方を学びながら機械学習 (scikit-learn) を体験しよう
+
+- 対象者
+  - Python3の基礎は終えている。
+- 到達目標
+  - ndarray, DataFrameあたりの代表的な使い方。
+  - scikit-learnを用いた機械学習の流れ把握。
+- 事前準備
+  - [Quickstart tutorial -- NumPy](https://docs.scipy.org/doc/numpy/user/quickstart.html)
+  - [10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
+  - [Pyplot tutorial -- Matplotlib](https://matplotlib.org/tutorials/introductory/pyplot.html)
+  - [Collecting Data Science Cheat Sheets](https://towardsdatascience.com/collecting-data-science-cheat-sheets-d2cdff092855)
+  - その他、公式ドキュメント等を適宜参照しよう。
+- 全体の流れ
+  - [1章：入力1次元・連続値出力に対するフィッティング（回帰）](./ex1.md)
+  - 2章：入力k次元・連続値出力に対するフィッティング（回帰）
+    - データセットの構築（dataset2.py）
+      - 演習2.1：真の関数の準備
+      - 演習2.2：観測値（データセット）の準備
+      - 演習2.3：ノイズの付与（以下、演習1.3〜1-6と同様）
+      - 演習2.4：データセットのファイル出力
+      - 演習2.5：データセットのファイル読み込み
+    - モデルへのフィッティング（learn2.py）
