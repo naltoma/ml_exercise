@@ -33,7 +33,7 @@
     - matplotlibにより、定義域``-1 <= x <= 1`` における事象を線グラフにより描け。グラフは ex1.1.png として保存すること。なお、凡例も掲載すること。
     - 上記まで終えたら add + commit + push すること。これ以後は省略するが、演習1.2以降についても演習単位で終える都度pushすること。
   - Tips
-    - 汎用等図中キャプションが文字化けするようであれば、以下のようにフォントを設定してみよう。
+    - 汎用等図中キャプションが文字化けするようであれば、[japanize_matplotlib](https://pypi.org/project/japanize-matplotlib/)を使うと楽です。以下は自前でフォント設定する例。
 ```Python
 # フォント設定
 import matplotlib
