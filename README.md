@@ -12,6 +12,9 @@
   - [10 minutes to pandas](https://pandas.pydata.org/pandas-docs/stable/getting_started/10min.html)
   - [Pyplot tutorial -- Matplotlib](https://matplotlib.org/tutorials/introductory/pyplot.html)
   - [Collecting Data Science Cheat Sheets](https://towardsdatascience.com/collecting-data-science-cheat-sheets-d2cdff092855)
+  - [doctest](https://docs.python.org/3/library/doctest.html)
+  - [unittest](https://docs.python.org/ja/3/library/unittest.html)
+  - [pytest](https://rinatz.github.io/python-book/ch08-02-pytest/)
   - その他、公式ドキュメント等を適宜参照しよう。
 - 全体の流れ
   - [1章：入力1次元・連続値出力に対するフィッティング（回帰）](./ex1.md)

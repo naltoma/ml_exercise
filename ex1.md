@@ -29,7 +29,12 @@
   - 課題内容
     - 演習用リポジトリを GitHub に用意せよ。
     - 真の関数として ``y = sin(pi * x * 0.8) * 10`` の結果を返す関数を定義せよ。関数名は ``true_function`` とする。
-    - [doctest](https://docs.python.org/3/library/doctest.html)により、x=0のときy=0であることをテストせよ。
+    - 関数への入出力においてNumpyのブロードキャストを利用できるようにすること。すなわち、入力xや出力yは np.array型を利用しよう。
+      - 参考
+        - Numpy公式: [Broadcasting](https://numpy.org/doc/stable/user/basics.broadcasting.html)
+        - [NumPy♪ブロードキャストを雰囲気で理解していませんか？](https://snowtree-injune.com/2020/06/14/broadcast-z007/)
+    - ユニットテストにより、x=0のときy=0であることをテストせよ。
+      - [doctest](https://docs.python.org/3/library/doctest.html), [unittest](https://docs.python.org/ja/3/library/unittest.html), pytest[https://rinatz.github.io/python-book/ch08-02-pytest/]
     - matplotlibにより、定義域``-1 <= x <= 1`` における事象を線グラフにより描け。グラフは ex1.1.png として保存すること。なお、凡例も掲載すること。
     - 上記まで終えたら add + commit + push すること。これ以後は省略するが、演習1.2以降についても演習単位で終える都度pushすること。
   - Tips
