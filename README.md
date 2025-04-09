@@ -17,7 +17,10 @@
   - [pytest](https://rinatz.github.io/python-book/ch08-02-pytest/)
   - その他、公式ドキュメント等を適宜参照しよう。
 - 全体の流れ
-  - [1章：入力1次元・連続値出力に対するフィッティング（回帰）](./ex1.md)
+  - 1章：入力1次元・連続値出力に対するフィッティング（回帰）
+    - ex1
+      - [ex1.md](./ex1.md)　＊Git, Pytest等を含む古いバージョン。
+      - [ex1-normal.md](./ex1-normal.md)は、Git, pytest等を省き、matplotlibをplotlyに修正。また説明文も修正済み。
   - 2章：入力k次元・連続値出力に対するフィッティング（回帰）
     - データセットの構築（dataset2.py）
       - 演習2.1：真の関数の準備
